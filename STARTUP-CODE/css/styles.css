@@ -5,14 +5,21 @@ Variables
 */
 
 :root {
-  --primary-color: #047aed;
-  --secondary-color: #1c3fa8;
-  --dark-color: #002240;
-  --light-color: #f4f4f4;
-  --success-color: #5cb85c;
-  --error-color: #d9534f;
-  --ff-primary: "Roboto", sans-serif;
-  --ff-secondary: "Open Sans", sans-serif;
+  /* mainColors */
+  --primaryRed-color: #fe7867;
+  --secondaryYellw-color: #fad400;
+  --darkCyan-color: #25564b;
+  --darkblue-color: #19536b;
+  --darkmodcyan-color: #458c7e;
+  /* dark-colors */
+  --darkgrayish-color: #5a636c;
+  --darksatdblu-color: #23303e;
+  --grayblu-color: #818498;
+  --grayblu2-color: #a7abae;
+  /* fonts */
+  ---primary: "Barlow", sans-serif;
+  --ff-secondary: "Fraunces", serif;
+  /* general-Var */
   --transition: all 0.3s linear;
   --spacing: 0.25rem;
   --radius: 0.5rem;
@@ -34,7 +41,7 @@ html {
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Barlow", sans-serif;
   color: #333;
   line-height: 1.6;
   font-size: 1.5rem;
